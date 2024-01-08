@@ -1,0 +1,48 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ .container{
+   margin: auto;
+   border: 2px solid red;
+   height: 40vw;
+   width: 40vw;
+   background:url("https://illustoon.com/photo/dl/5052.png");
+   background-size: 100%;
+    position: relative;
+   
+ }
+ .hr{
+   width: 1%;
+   height: 21%;
+   background-color: rgb(249, 107, 107);
+    position: absolute;
+    top: 29%;
+    left: 49.5%;
+    transform-origin: bottom;
+    border-radius: 5px;
+ } 
+ .min{
+   width: 1%;
+   height: 26.5%;
+   background-color:blueviolet ;
+   
+   position: absolute;
+   top: 24%;
+   left: 49.50%;
+   border-radius: 5px;
+  transform-origin: bottom;
+ }
+ .sec{
+   width: 1%;
+   height: 25%;
+   background-color: black;
+   position: absolute;
+   top: 24.5%;
+   border-radius: 5px;
+   left: 49.5%;
+   transform-origin: bottom;
+ }
+ 
